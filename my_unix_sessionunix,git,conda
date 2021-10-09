@@ -1,0 +1,750 @@
+Script started on 2021-10-08 14:34:53+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="168" LINES="44"]
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ pwd
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls pwd
+ls: cannot access 'pwd': No such file or directory
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls north-pacific-gyre/2012-07-03/
+[0m[01;32mNENE01729A.txt[0m  [01;32mNENE01736A.txt[0m  [01;32mNENE01751B.txt[0m  [01;32mNENE01843A.txt[0m  [01;32mNENE01971Z.txt[0m  [01;32mNENE01978B.txt[0m  [01;32mNENE02040A.txt[0m  [01;32mNENE02040Z.txt[0m  [01;32mNENE02043B.txt[0m  [01;32mgoostats.sh[0m
+[01;32mNENE01729B.txt[0m  [01;32mNENE01751A.txt[0m  [01;32mNENE01812A.txt[0m  [01;32mNENE01843B.txt[0m  [01;32mNENE01978A.txt[0m  [01;32mNENE02018B.txt[0m  [01;32mNENE02040B.txt[0m  [01;32mNENE02043A.txt[0m  [01;32mgoodiff.sh[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls -F
+[0m[01;34mcreatures[0m/  [01;34mdata[0m/  [01;34mmolecules[0m/  [01;34mnorth-pacific-gyre[0m/  [01;32mnotes.txt[0m*  [01;32mnumbers.txt[0m*  [01;32mpizza.cfg[0m*  [01;32msolar.pdf[0m*  [01;34mwriting[0m/
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ mkdir theises
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ mkdir theises[8Pls -F
+[0m[01;34mcreatures[0m/  [01;34mdata[0m/  [01;34mmolecules[0m/  [01;34mnorth-pacific-gyre[0m/  [01;32mnotes.txt[0m*  [01;32mnumbers.txt[0m*  [01;32mpizza.cfg[0m*  [01;32msolar.pdf[0m*  [01;34mtheises[0m/  [01;34mwriting[0m/
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cd theises
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/theises[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/theises[00m$ nanp[Ko deaft[K[K[K[Kraft.txt
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                   draft.txt                                                                              [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2dH[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25lF[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lw[?12l[?25h[?25l [?12l[?25h[?25lR[?12l[?25h[?25l [?12l[?25h[?25lT[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lM[?12l[?25h[?25l [?12l[?25h[?25lT[42d[K[2;21H[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lM[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[43;17H[26X[43;43H(B[0;7mM-D(B[m DOS Format[18X[43;81H    (B[0;7mM-A(B[m Append          [43;113H[14X[43;127H(B[0;7mM-B(B[m Backup File[K[44;2H(B[0;7mC(B[m Cancel[17G[26X[44;43H(B[0;7mM-M(B[m Mac Format[28X[44;85H(B[0;7mM-P(B[m Prepend         [44;113H[14X[44;127H(B[0;7m^T(B[m To Files[K[42d(B[0;7mFile Name to Write: draft.txt                                                                                                                                           [42;1H(B[m[42;30H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;77H(B[0;7m[ Wrote 1 line ](B[m[43;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2;32H[?12l[?25h[?25l[42d[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/theises[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/theises[00m$ ls
+draft.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/theises[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/theises[00m$ touch my_file.ext[K[K[Ktxt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/theises[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/theises[00m$ touch my_file.txtls[K
+draft.txt  my_file.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/theises[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/theises[00m$ cd --
+]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ ls
+[0m[01;32mREADME[0m  [01;34mmy_project[0m  [01;32mmy_unix_session[0m  [01;32mmy_unix_session2[0m  my_unix_session3  [01;34mshell-lesson-data[0m
+]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ pwd
+/home/abhishiekbhadauria
+]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ cd shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ mv thes[Kiss[K[K[Kises/draft.txt theises/quote.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mtheises[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls theises
+my_file.txt  quote.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cp -r thesis thesis_backup
+cp: cannot stat 'thesis': No such file or directory
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cp -r thesis thesis_backup[C[C[C[C[1P[1P thesis_backup[1@i[Cs thesis_backup[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mtheises[0m  [01;34mthesis_backup[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ rm quotet[Ks.txt
+rm: cannot remove 'quotes.txt': No such file or directory
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ rm quotes.txtls[Kcp -r theises thesis_backup[1Psi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pls theises[Kmv theises/draft.txt theises/quote.txt[18Pcd shell-lesson-data[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktg[Kheises
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/theises[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/theises[00m$ cd theisesrm quotes.txt
+rm: cannot remove 'quotes.txt': No such file or directory
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/theises[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/theises[00m$ ls
+my_file.txt  quote.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/theises[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/theises[00m$ lsrm quotes.txt[1P.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/theises[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/theises[00m$ rm quote.txtls[K
+my_file.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/theises[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/theises[00m$ ls[K[Kcd -
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cd a[K--
+]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ cd shell_[K=[K-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ rm -r theises
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mthesis_backup[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ p[Kls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mthesis_backup[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ d[Kcd data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ ls
+[0m[01;32mamino-acids.txt[0m  [01;34manimal-counts[0m  [01;32manimals.txt[0m  [01;34melements[0m  [01;32mmorse.txt[0m  [01;34mpdb[0m  [01;32mplanets.txt[0m  [01;32msalmon.txt[0m  [01;32msunspot.txt[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ mkdir backup
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cp amino-acid.txt animals.txt backup/
+cp: cannot stat 'amino-acid.txt': No such file or directory
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cp amino-acid.txt animals.txt backup/[C[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ ls
+[0m[01;32mamino-acids.txt[0m  [01;34manimal-counts[0m  [01;32manimals.txt[0m  [01;34mbackup[0m  [01;34melements[0m  [01;32mmorse.txt[0m  [01;34mpdb[0m  [01;32mplanets.txt[0m  [01;32msalmon.txt[0m  [01;32msunspot.txt[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ c[Kcd -
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cd molecules
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ ls
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ ls *thane
+ls: cannot access '*thane': No such file or directory
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ ls *thane.pdb
+[0m[01;32methane.pdb[0m  [01;32mmethane.pdb[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ ls molecules
+ls: cannot access 'molecules': No such file or directory
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ ls molecules[K[K[K[K[K[K[K[K[K
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ wc cubane.pdb
+  20  156 1158 cubane.pdb
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ wc -l *.pdb > lengths.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ ls lenght[K[Kths.txt
+lengths.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ less lengths.txt
+[?1049h[22;0;0t[?1h=  20 cubane.pdb
+  12 ethane.pdb
+   9 methane.pdb
+  30 octane.pdb
+  21 pentane.pdb
+  15 propane.pdb
+ 107 total
+[7mlengths.txt (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K...skipping...
+  20 cubane.pdb
+  12 ethane.pdb
+   9 methane.pdb
+  30 octane.pdb
+  21 pentane.pdb
+  15 propane.pdb
+ 107 total
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ exg[Kho [K[K[K[Kcho d[Khell0 <texts.txt
+bash: texts.txt: No such file or directory
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ echo hell0 <texts.txt[C[1Ptexts.txt[1Ptexts.txt texts.txt>texts.txt texts.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ less texts.txt
+[?1049h[22;0;0t[?1h=hell0
+[7mtexts.txt (END)[27m[K[K[?1l>[?1049l[23;0;0t]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ less texts.txt[8@echo hell0 >[C[C[C[C[C[C[C[C[C[C> texts.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ echo hell0 >> texts.txt[9Pless[C[C[C[C[C[C[C[C[C[C
+[?1049h[22;0;0t[?1h=hell0
+hell0
+[7mtexts.txt (END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ wc -l *.pdb | sort -n
+   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ cd -
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mthesis_backup[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cd creatures
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/creatures[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/creatures[00m$ ls
+[0m[01;32mbasilisk.dat[0m  [01;32mminotaur.dat[0m  [01;32municorn.dat[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/creatures[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/creatures[00m$ cd -
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mthesis_backup[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cd data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ ls
+[0m[01;32mamino-acids.txt[0m  [01;34manimal-counts[0m  [01;32manimals.txt[0m  [01;34mbackup[0m  [01;34melements[0m  [01;32mmorse.txt[0m  [01;34mpdb[0m  [01;32mplanets.txt[0m  [01;32msalmon.txt[0m  [01;32msunspot.txt[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cat animals.txt | head -n 5 | tail -n 3 | sort -r > final.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cat[K[K[Kless final.txt
+[?1049h[22;0;0t[?1h=2012-11-06,rabbit
+2012-11-06,deer
+2012-11-05,raccoon
+[7mfinal.txt (END)[27m[K[K[?1l>[?1049l[23;0;0t]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$  cut -d , -f 2 animals.txt | sort | uniq
+bear
+deer
+fox
+rabbit
+raccoon
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cut -d, -f 2 animals.txt
+deer
+rabbit
+raccoon
+rabbit
+deer
+fox
+rabbit
+bear
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cut -d, -f 2 animals.txt | sort
+bear
+deer
+deer
+fox
+rabbit
+rabbit
+rabbit
+raccoon
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cut -d, -f 2 animals.txt | sort | uniq
+bear
+deer
+fox
+rabbit
+raccoon
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cut -d, -f 2 animals.txt | sort | uniq -c
+      1 bear
+      2 deer
+      1 fox
+      3 rabbit
+      1 raccoon
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cut -d, -f 2 animals.txt | sort | uniq -c | wc 
+      5      10      69
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cut -d, -f 2 animals.txt | sort | uniq -c | wc -1
+wc: invalid option -- '1'
+Try 'wc --help' for more information.
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cut -d, -f 2 animals.txt | sort | uniq -c | wc -1[Kl
+5
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ ls
+[0m[01;32mamino-acids.txt[0m  [01;34manimal-counts[0m  [01;32manimals.txt[0m  [01;34mbackup[0m  [01;34melements[0m  final.txt  [01;32mmorse.txt[0m  [01;34mpdb[0m  [01;32mplanets.txt[0m  [01;32msalmon.txt[0m  [01;32msunspot.txt[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cd -
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mthesis_backup[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls[K[K cd north-pacific-gyre/2012-07-03
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ ls
+[0m[01;32mNENE01729A.txt[0m  [01;32mNENE01736A.txt[0m  [01;32mNENE01751B.txt[0m  [01;32mNENE01843A.txt[0m  [01;32mNENE01971Z.txt[0m  [01;32mNENE01978B.txt[0m  [01;32mNENE02040A.txt[0m  [01;32mNENE02040Z.txt[0m  [01;32mNENE02043B.txt[0m  [01;32mgoostats.sh[0m
+[01;32mNENE01729B.txt[0m  [01;32mNENE01751A.txt[0m  [01;32mNENE01812A.txt[0m  [01;32mNENE01843B.txt[0m  [01;32mNENE01978A.txt[0m  [01;32mNENE02018B.txt[0m  [01;32mNENE02040B.txt[0m  [01;32mNENE02043A.txt[0m  [01;32mgoodiff.sh[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ wc -l *.txt | sort -n | head -n 5
+  240 NENE02018B.txt
+  300 NENE01729A.txt
+  300 NENE01729B.txt
+  300 NENE01736A.txt
+  300 NENE01751A.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ ls *Z.txt
+[0m[01;32mNENE01971Z.txt[0m  [01;32mNENE02040Z.txt[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ cd -
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mthesis_backup[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cd creatures
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/creatures[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/creatures[00m$  head -n 5 basilisk.dat minotaur.dat unicorn.dat
+==> basilisk.dat <==
+COMMON NAME: basilisk
+CLASSIFICATION: basiliscus vulgaris
+UPDATED: 1745-05-02
+CCCCAACGAG
+GAAACAGATC
+
+==> minotaur.dat <==
+COMMON NAME: minotaur
+CLASSIFICATION: bos hominus
+UPDATED: 1765-02-17
+CCCGAAGGAC
+CGACATCTCT
+
+==> unicorn.dat <==
+COMMON NAME: unicorn
+CLASSIFICATION: equus monoceros
+UPDATED: 1738-11-24
+AGCCGGGTCG
+CTTTACCTTA
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/creatures[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/creatures[00m$ for filena[K[K[K[K[K[K[K[K[K[Kcd creaturesls[Kcd -[2Plscd creatures[Kfor filename in basilisk.dat minotaur.dat unicorn.dat
+> do
+>  head -n 5 basilisk.dat minotaur.dat unicorn.datds[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khead -2[Kn 2 filename | tail -n 1
+> done
+head: cannot open 'filename' for reading: No such file or directory
+head: cannot open 'filename' for reading: No such file or directory
+head: cannot open 'filename' for reading: No such file or directory
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/creatures[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/creatures[00m$ for filename in basilisk.dat minotaur.dat unicorn.dat
+> do
+>     head -n 2 $filename | tail -n 1
+> done
+CLASSIFICATION: basiliscus vulgaris
+CLASSIFICATION: bos hominus
+CLASSIFICATION: equus monoceros
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/creatures[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/creatures[00m$ cd-[K -
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mthesis_backup[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cd mpol[K[K[Kolecules
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ for datafile in *.pdb
+> do
+> ^C [K^Z[K
+
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ for datafile in *.pdb; do[K[K[K[K[Kb
+> do
+>     ls *.pdb
+> done
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ for filename in *c*
+> do
+>     ls $filename
+> done
+[0m[01;32mcubane.pdb[0m
+[0m[01;32moctane.pdb[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ for alkanes in *.pdb
+> do
+>     echo $alkanes
+> 
+GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)
+> ^Bxsdc[K[K[K[K[K    cat alkanes[K[K[K[K[K[K[K$alkanes > alkanes.pdb
+> done
+cubane.pdb
+ethane.pdb
+methane.pdb
+octane.pdb
+pentane.pdb
+propane.pdb
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ for filename in *.dat
+> do
+>     cp $filename original-$filename
+> done
+cp: cannot stat '*.dat': No such file or directory
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ ls
+alkanes.pdb  [0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  lengths.txt  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m  texts.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/molecules[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/molecules[00m$ cd -\[K
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ ls
+[0m[01;34mcreatures[0m  [01;34mdata[0m  [01;34mmolecules[0m  [01;34mnorth-pacific-gyre[0m  [01;32mnotes.txt[0m  [01;32mnumbers.txt[0m  [01;32mpizza.cfg[0m  [01;32msolar.pdf[0m  [01;34mthesis_backup[0m  [01;34mwriting[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ data[K[K[K[Kcd data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ ls
+[0m[01;32mamino-acids.txt[0m  [01;34manimal-counts[0m  [01;32manimals.txt[0m  [01;34mbackup[0m  [01;34melements[0m  final.txt  [01;32mmorse.txt[0m  [01;34mpdb[0m  [01;32mplanets.txt[0m  [01;32msalmon.txt[0m  [01;32msunspot.txt[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/data[00m$ cd -
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cd creatures
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/creatures[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/creatures[00m$ ls
+[0m[01;32mbasilisk.dat[0m  [01;32mminotaur.dat[0m  [01;32municorn.dat[0m
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/creatures[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/creatures[00m$ lscd creatures-[K[2Plscd datals[Kcd -[2Plsfor filename in *.dat; do     cp $filename original-$filename; done[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+> do
+>    cp *filename[K[K[K[K[K[K[K[K[K$filename original-$filename
+> donw[Ke
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/creatures[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/creatures[00m$ cd -
+/home/abhishiekbhadauria/shell-lesson-data
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data[00m$ cd north-pacific-gyre/2012-07-03
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ cd north-pacific-gyre/2012-07-03[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfor datafile in NENE*A.txt NENE*B.txt; do echo $datafile stats-$datafile; done
+NENE01729A.txt stats-NENE01729A.txt
+NENE01736A.txt stats-NENE01736A.txt
+NENE01751A.txt stats-NENE01751A.txt
+NENE01812A.txt stats-NENE01812A.txt
+NENE01843A.txt stats-NENE01843A.txt
+NENE01978A.txt stats-NENE01978A.txt
+NENE02040A.txt stats-NENE02040A.txt
+NENE02043A.txt stats-NENE02043A.txt
+NENE01729B.txt stats-NENE01729B.txt
+NENE01751B.txt stats-NENE01751B.txt
+NENE01843B.txt stats-NENE01843B.txt
+NENE01978B.txt stats-NENE01978B.txt
+NENE02018B.txt stats-NENE02018B.txt
+NENE02040B.txt stats-NENE02040B.txt
+NENE02043B.txt stats-NENE02043B.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ for datafile in NENE*A.txt NENE*B.txt; do echo $datafile stats-$datafile; done[1P[1P[1P[1P[1@b[1@a[1@s[1@h[C[1@ [1@g[1@o[1@o[1@s[1@t[1@a[1@ts $datafile stats-$datafile; done [A]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. $datafile stats-$datafile; done[A]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs $datafile stats-$datafile; done[A]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch $datafile stats-$datafile; done[A]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor datafile in NENE*A.txt NENE*B.txt; do bash goostats.sh $datafile stats-$datafile; done
+^C
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ for datafile in NENE*A.txt NENE*B.txt; do bash goostats.sh $datafile stats-$datafile; done[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K echo datafile[C$datafile[C[C[C[C[C[C[C[C;
+> bash goostats.sh $datafile stats-$datafile; done
+NENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+]0;abhishiekbhadauria@TIGER01362: ~/shell-lesson-data/north-pacific-gyre/2012-07-03[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/shell-lesson-data/north-pacific-gyre/2012-07-03[00m$ exit
+exit
+
+Script done on 2021-10-08 16:53:25+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-10-09 11:55:33+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ exit[1Pndbash Miniconda3.shcurl -sL   "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh" >   "Miniconda3.sh"[A(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda --version
+conda 4.10.3
+(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ conda update conda
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / - \ | / - done
+
+## Package Plan ##
+
+  environment location: /home/abhishiekbhadauria/miniconda3
+
+  added / updated specs:
+    - conda
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2021.9.30  |       h06a4308_1         116 KB
+    charset-normalizer-2.0.4   |     pyhd3eb1b0_0          35 KB
+    cryptography-3.4.8         |   py39hd23ed53_0         946 KB
+    idna-3.2                   |     pyhd3eb1b0_0          48 KB
+    openssl-1.1.1l             |       h7f8727e_0         2.5 MB
+    requests-2.26.0            |     pyhd3eb1b0_0          59 KB
+    setuptools-58.0.4          |   py39h06a4308_0         790 KB
+    tk-8.6.11                  |       h1ccaba5_0         3.0 MB
+    tqdm-4.62.2                |     pyhd3eb1b0_1          96 KB
+    tzdata-2021a               |       h5d7bf9c_0         111 KB
+    urllib3-1.26.7             |     pyhd3eb1b0_0         111 KB
+    ------------------------------------------------------------
+                                           Total:         7.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  charset-normalizer pkgs/main/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
+
+The following packages will be REMOVED:
+
+  chardet-4.0.0-py39h06a4308_1003
+  pip-21.1.3-py39h06a4308_0
+  wheel-0.36.2-pyhd3eb1b0_0
+
+The following packages will be UPDATED:
+
+  ca-certificates                       2021.7.5-h06a4308_1 --> 2021.9.30-h06a4308_1
+  cryptography                         3.4.7-py39hd23ed53_0 --> 3.4.8-py39hd23ed53_0
+  idna                                    2.10-pyhd3eb1b0_0 --> 3.2-pyhd3eb1b0_0
+  openssl                                 1.1.1k-h27cfd23_0 --> 1.1.1l-h7f8727e_0
+  requests                              2.25.1-pyhd3eb1b0_0 --> 2.26.0-pyhd3eb1b0_0
+  setuptools                          52.0.0-py39h06a4308_0 --> 58.0.4-py39h06a4308_0
+  tk                                      8.6.10-hbc83047_0 --> 8.6.11-h1ccaba5_0
+  tqdm                                  4.61.2-pyhd3eb1b0_1 --> 4.62.2-pyhd3eb1b0_1
+  urllib3                               1.26.6-pyhd3eb1b0_1 --> 1.26.7-pyhd3eb1b0_0
+
+The following packages will be DOWNGRADED:
+
+  tzdata                                   2021a-h52ac0ba_0 --> 2021a-h5d7bf9c_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+tqdm-4.62.2          | 96 KB     |                                                                               |   0% tqdm-4.62.2          | 96 KB     | ############8                                                                 |  17% tqdm-4.62.2          | 96 KB     | ############################################################################# | 100% tqdm-4.62.2          | 96 KB     | ############################################################################# | 100% 
+openssl-1.1.1l       | 2.5 MB    |                                                                               |   0% openssl-1.1.1l       | 2.5 MB    | ####7                                                                         |   6% openssl-1.1.1l       | 2.5 MB    | #######################################7                                      |  52% openssl-1.1.1l       | 2.5 MB    | ############################################################################# | 100% openssl-1.1.1l       | 2.5 MB    | ############################################################################# | 100% 
+tzdata-2021a         | 111 KB    |                                                                               |   0% tzdata-2021a         | 111 KB    | ############################################################################# | 100% tzdata-2021a         | 111 KB    | ############################################################################# | 100% 
+setuptools-58.0.4    | 790 KB    |                                                                               |   0% setuptools-58.0.4    | 790 KB    | ###########################################################2                  |  77% setuptools-58.0.4    | 790 KB    | ############################################################################# | 100% 
+cryptography-3.4.8   | 946 KB    |                                                                               |   0% cryptography-3.4.8   | 946 KB    | ########################################3                                     |  52% cryptography-3.4.8   | 946 KB    | ############################################################################# | 100% 
+tk-8.6.11            | 3.0 MB    |                                                                               |   0% tk-8.6.11            | 3.0 MB    | ############4                                                                 |  16% tk-8.6.11            | 3.0 MB    | ######################################################################8       |  92% tk-8.6.11            | 3.0 MB    | ############################################################################# | 100% 
+idna-3.2             | 48 KB     |                                                                               |   0% idna-3.2             | 48 KB     | ############################################################################# | 100% idna-3.2             | 48 KB     | ############################################################################# | 100% 
+charset-normalizer-2 | 35 KB     |                                                                               |   0% charset-normalizer-2 | 35 KB     | ############################################################################# | 100% charset-normalizer-2 | 35 KB     | ############################################################################# | 100% 
+ca-certificates-2021 | 116 KB    |                                                                               |   0% ca-certificates-2021 | 116 KB    | ############################################################################# | 100% ca-certificates-2021 | 116 KB    | ############################################################################# | 100% 
+requests-2.26.0      | 59 KB     |                                                                               |   0% requests-2.26.0      | 59 KB     | ############################################################################# | 100% requests-2.26.0      | 59 KB     | ############################################################################# | 100% 
+urllib3-1.26.7       | 111 KB    |                                                                               |   0% urllib3-1.26.7       | 111 KB    | ############################################################################# | 100% urllib3-1.26.7       | 111 KB    | ############################################################################# | 100% 
+Preparing transaction: | / done
+Verifying transaction: \ | / - \ | done
+Executing transaction: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ conda create --name snowflakes biopython[K[K[K[K[K[K[K[K[Ktigerop
+Collecting package metadata (current_repodata.json): - \ | / - done
+Solving environment: | failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / failed
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - tigerop
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/linux-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/r/linux-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ conda create --name snowflakes tigerop[1Ptigerop[1Ptigerop[1Ptigerop[1Ptigerop[1Ptigerop[1Ptigerop[1Ptigerop[1Ptigerop[1Ptigerop[1Ptigerop[1Ptigerop[C[C[C[C[C[C[C
+Collecting package metadata (current_repodata.json): - \ done
+Solving environment: / done
+
+## Package Plan ##
+
+  environment location: /home/abhishiekbhadauria/miniconda3/envs/tigerop
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: \ done
+Verifying transaction: / done
+Executing transaction: \ done
+#
+# To activate this environment, use
+#
+#     $ conda activate tigerop
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ conda c[Kactivate tigerop
+(tigerop) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ conda activate
+(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ conda search beautifulsoap4
+Loading channels: - \ | / - \ done
+No match found for: beautifulsoap4. Search: *beautifulsoap4*
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - beautifulsoap4
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/linux-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/r/linux-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ conda search beautifulsoap4[C[C[1P beautifulsoap4[1P beautifulsoap4[1P beautifulsoap4[1P beautifulsoap4[1P beautifulsoap4[1P beautifulsoap4i beautifulsoap4n beautifulsoap4s beautifulsoap4t beautifulsoap4a beautifulsoap4l beautifulsoap4l beautifulsoap4
+Collecting package metadata (current_repodata.json): - \ | / - done
+Solving environment: | failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): - \ | / - \ done
+Solving environment: / failed with initial frozen solve. Retrying with flexible solve.
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - beautifulsoap4
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/linux-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/r/linux-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ conda install beautifulsoap4[1Pp4ip4[1Pp4up4[C[C
+Collecting package metadata (current_repodata.json): - \ | / done
+Solving environment: \ | done
+
+## Package Plan ##
+
+  environment location: /home/abhishiekbhadauria/miniconda3
+
+  added / updated specs:
+    - beautifulsoup4
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    beautifulsoup4-4.10.0      |     pyh06a4308_0          85 KB
+    soupsieve-2.2.1            |     pyhd3eb1b0_0          32 KB
+    ------------------------------------------------------------
+                                           Total:         116 KB
+
+The following NEW packages will be INSTALLED:
+
+  beautifulsoup4     pkgs/main/noarch::beautifulsoup4-4.10.0-pyh06a4308_0
+  soupsieve          pkgs/main/noarch::soupsieve-2.2.1-pyhd3eb1b0_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+soupsieve-2.2.1      | 32 KB     |                                                                               |   0% soupsieve-2.2.1      | 32 KB     | #######################################                                       |  51% soupsieve-2.2.1      | 32 KB     | ############################################################################# | 100% soupsieve-2.2.1      | 32 KB     | ############################################################################# | 100% 
+beautifulsoup4-4.10. | 85 KB     |                                                                               |   0% beautifulsoup4-4.10. | 85 KB     | ##########################################################3                   |  76% beautifulsoup4-4.10. | 85 KB     | ############################################################################# | 100% 
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - \ | / - \ | / - done
+(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ conda -h
+usage: conda [-h] [-V] command ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+Options:
+
+positional arguments:
+  command
+    clean        Remove unused packages and caches.
+    compare      Compare packages between conda environments.
+    config       Modify configuration values in .condarc. This is modeled after the git config command. Writes to the
+                 user .condarc file (/home/abhishiekbhadauria/.condarc) by default.
+    create       Create a new conda environment from a list of specified packages.
+    help         Displays a list of available conda commands and their help strings.
+    info         Display information about current conda install.
+    init         Initialize conda for shell interaction. [Experimental]
+    install      Installs a list of packages into a specified conda environment.
+    list         List linked packages in a conda environment.
+    package      Low-level conda package utility. (EXPERIMENTAL)
+    remove       Remove a list of packages from a specified conda environment.
+    uninstall    Alias for conda remove.
+    run          Run an executable in a conda environment. [Experimental]
+    search       Search for packages and display associated information. The input is a MatchSpec, a query language
+                 for conda packages. See examples below.
+    update       Updates conda packages to the latest compatible version.
+    upgrade      Alias for conda update.
+
+optional arguments:
+  -h, --help     Show this help message and exit.
+  -V, --version  Show the conda version number and exit.
+
+conda commands available from other packages:
+  env
+(base) ]0;abhishiekbhadauria@TIGER01362: ~[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2021-10-09 12:02:27+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-10-09 12:13:47+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ exitconda -hinstall beautifulsoup4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit init
+Reinitialized existing Git repository in /home/abhishiekbhadauria/my_project/.git/
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git add *.c
+fatal: pathspec '*.c' did not match any files
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ gi[K[Kgit add *.c[K[K[KLICENSE
+fatal: pathspec 'LICENSE' did not match any files
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ LS
+LS: command not found
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ ls
+[0m[01;32mAbhishiek[0m
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git add Abhishiek
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git commit -m 'Initial project version'
+[main bdd699f] Initial project version
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ mode change 100644 => 100755 Abhishiek
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ https://github.com/Abhishiek-Bhadauria/my_projectghttps://github.com/Abhishiek-Bhadauria/my_projectihttps://github.com/Abhishiek-Bhadauria/my_projectthttps://github.com/Abhishiek-Bhadauria/my_project https://github.com/Abhishiek-Bhadauria/my_projectchttps://github.com/Abhishiek-Bhadauria/my_projectlhttps://github.com/Abhishiek-Bhadauria/my_projectohttps://github.com/Abhishiek-Bhadauria/my_projectnhttps://github.com/Abhishiek-Bhadauria/my_projectehttps://github.com/Abhishiek-Bhadauria/my_project https://github.com/Abhishiek-Bhadauria/my_project
+Cloning into 'my_project'...
+Username for 'https://github.com': Abhishiek-Bhadauria
+Password for 'https://Abhishiek-Bhadauria@github.com': 
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  16% (1/6)Unpacking objects:  33% (2/6)Unpacking objects:  50% (3/6)Unpacking objects:  66% (4/6)Unpacking objects:  83% (5/6)Unpacking objects: 100% (6/6)Unpacking objects: 100% (6/6), 1.20 KiB | 72.00 KiB/s, done.
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mmy_project/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git add my_project
+warning: adding embedded git repository: my_project
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint: [m
+[33mhint: 	git submodule add <url> my_project[m
+[33mhint: [m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint: [m
+[33mhint: 	git rm --cached my_project[m
+[33mhint: [m
+[33mhint: See "git help submodule" for more information.[m
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ ls
+[0m[01;32mAbhishiek[0m  [01;34mmy_project[0m
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   my_project[m
+
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git push
+Username for 'https://github.com': Abhishiek-Bhadauria
+Password for 'https://Abhishiek-Bhadauria@github.com': 
+To https://github.com/Abhishiek-Bhadauria/my_project
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'https://github.com/Abhishiek-Bhadauria/my_project'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git commit
+hint: Waiting for your editor to close the file... error: cannot run emacs: No such file or directory
+error: unable to start editor 'emacs'
+Please supply the message using either -m or -F option.
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git commit -F
+error: switch `F' requires a value
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git commit -F[Km
+error: switch `m' requires a value
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git commit -m "Story:Fixed"
+[main 8fd1e3f] Story:Fixed
+ 1 file changed, 1 insertion(+)
+ create mode 160000 my_project
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ rm my_project
+rm: cannot remove 'my_project': Is a directory
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ rm -r my_project
+rm: remove write-protected regular file 'my_project/.git/objects/11/a83474ae7955a66f5ba4922a000ca070ba1174'? y
+rm: remove write-protected regular file 'my_project/.git/objects/13/236c85df375f8e325d172eb6470d120c24181e'? y
+rm: remove write-protected regular file 'my_project/.git/objects/38/76a5650361eaae84d622bb16a8c2869567c3b7'? y
+rm: remove write-protected regular file 'my_project/.git/objects/ca/9555572d29f7a8a1e11941482a39da0daa6419'? y
+rm: remove write-protected regular file 'my_project/.git/objects/cf/0a5b11120847e01c92dae83fe61016e4509c86'? 
+rm: cannot remove 'my_project/.git/objects/cf': Directory not empty
+rm: remove write-protected regular file 'my_project/.git/objects/e9/65047ad7c57865823c7d992b1d046ea66edf78'? y
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ ls
+[0m[01;32mAbhishiek[0m  [01;34mmy_project[0m
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ pwd
+/home/abhishiekbhadauria/my_project
+(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ git log
+[?1h=[33mcommit 8fd1e3f992c619db3484872970c0225b6171122f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Abhishiek <abhishiek.bhadau@tigeranalytics.com>[m
+Date:   Sat Oct 9 12:39:47 2021 +0530[m
+[m
+    Story:Fixed[m
+[m
+[33mcommit bdd699f9ba1ada720168442c206d3eb510b8aec9[m[m
+Author: Abhishiek <abhishiek.bhadau@tigeranalytics.com>[m
+Date:   Sat Oct 9 12:19:24 2021 +0530[m
+[m
+    Initial project version[m
+[m
+[33mcommit cf0a5b11120847e01c92dae83fe61016e4509c86[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Abhishiek-Bhadauria <92023315+Abhishiek-Bhadauria@users.noreply.github.com>[m
+Date:   Thu Oct 7 13:52:40 2021 +0530[m
+[m
+    Create Abhishiek[m
+[K[?1l>(base) ]0;abhishiekbhadauria@TIGER01362: ~/my_project[01;32mabhishiekbhadauria@TIGER01362[00m:[01;34m~/my_project[00m$ exit
+exit
+
+Script done on 2021-10-09 13:28:03+05:30 [COMMAND_EXIT_CODE="0"]
